@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 40px;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menuItem {
+    list-style: none;
+}
+
+.menuLink {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    transition: all .2s ease-in;
+    position: relative;
+    font-family: "Play";
+}
+
+
+
+.menuLink:hover {
+    color: #000;
+}
+
+.menuLinkActive {
+    color: #000;
+}
+
+.menuLinkActive::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #F25B05;
+    transform: scaleX(1);
+}
+
+.loginList {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.loginItem {
+    list-style: none;
+}

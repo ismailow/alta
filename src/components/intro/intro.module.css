@@ -1,0 +1,76 @@
+.introTitleBlock {
+    padding: 50px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 37px;
+}
+
+.introTitle {
+    color: #3D3C3E;
+    font-size: 140px;
+    font-family: "BravoRG";
+    font-weight: 700;
+    text-align: center;
+}
+
+.accent {
+    color: #F25B05;
+}
+
+.introBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introContent {
+    max-width: 626px;
+}
+
+.introSubtitle {
+    font-family: "BravoSC";
+    font-size: 49px;
+    font-weight: 404;
+    margin-bottom: 32px;
+}
+
+.introText {
+    font-family: "Play";
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+.introText p {
+    max-width: 400px;
+}
+
+.title3 {
+    font-family: "BravoSC";
+    font-size: 41px;
+    text-align: right;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+
+.capacities {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 55px;
+    gap: 20px;
+}
+
+.item {
+    font-family: "Play";
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #3D3C3E;
+    border-radius: 10px;
+    width: 161px;
+    padding: 13px 0;
+}
+
+.btns {
+    display: flex;
+    gap: 44px;
+}

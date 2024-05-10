@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Play";
+  src: url(./fonts/Play-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Inder";
+  src: url(./fonts/Inder-Regular.ttf);
+}
+
+@font-face {
+  font-family: "BravoSC";
+  src: url(./fonts/bravosc.ttf);
+}
+
+@font-face {
+  font-family: "BravoRG";
+  src: url(./fonts/BravoRG.otf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
