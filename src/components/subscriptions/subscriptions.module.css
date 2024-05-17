@@ -1,0 +1,152 @@
+.subscriptions {
+    margin-bottom: 170px;
+}
+
+.titleBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 44px;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 50px;
+    font-family: 'BravoSC';
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-family: 'Play';
+    color: #3d3c3e;
+    max-width: 144px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.subscriptionItem {
+    padding: 0 30px 30px 0;
+    width: 394px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+}
+
+.subscriptionBorder {
+    padding: 2px;
+    background-image: linear-gradient(130deg, #34CA00 0%, #048829 100%);
+    border-radius: 10px;
+}
+
+.subscription {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    padding: 39px;
+}
+
+.itemTitle {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Play';
+    text-align: center;
+    border-bottom: 2px solid #108800;
+    padding-bottom: 10px;
+    margin-bottom: 37px;
+}
+
+.itemList {
+    margin-bottom: 55px;
+}
+
+.listItem {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.listItemText {
+    color: #3D3C3E;
+    font-size: 15px;
+    font-family: 'Play';
+}
+
+.buttonBorder {
+    border-radius: 10px;
+    margin: 0 auto;
+    max-width: 249px;
+    background-image: linear-gradient(130deg, #34CA00 0%, #048829 100%);
+    padding: 2px;
+}
+
+.button {
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Play';
+    background-color: #EEEEEE;
+    padding: 17px 28px;
+    display: flex;
+    gap: 61px;
+    border: none;
+}
+
+.accent {
+    color: #1B9D64;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.pro .subscriptionBorder {
+    background-image: linear-gradient(130deg, #2C80FF 0%, #1A4D99 100%);
+}
+
+.pro .itemTitle {
+    border-color: #004EC2;
+}
+
+.pro .buttonBorder {
+    background-image: linear-gradient(130deg, #2C80FF 0%, #1A4D99 100%);
+}
+
+.premium {
+    background-color: #3D3C3E;
+    color: #EBEBEB;
+    position: relative;
+}
+
+.premium .subscriptionBorder {
+    background-image: linear-gradient(130deg, #CCAA54 0%, #88B624 100%);
+}
+
+.premium .subscription {
+    background-color: #3D3C3E;
+}
+
+.premium .itemTitle {
+    border-color: #AD8100;
+    font-weight: 700;
+}
+
+.premium .button {
+    background-color: #3D3C3E;
+    color: #EBEBEB;
+}
+
+.premium .listItemText {
+    color: #EBEBEB;
+}
+
+.itemIcon {
+    position: absolute;
+    top: -16px;
+    left: -40px;
+}
