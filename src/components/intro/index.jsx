@@ -32,7 +32,7 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className={styles.img}>
-                    <img src={introBG} />
+                    <img src={introBG} alt="image" />
                 </div>
             </div>
         </div>

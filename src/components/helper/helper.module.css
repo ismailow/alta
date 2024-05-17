@@ -1,0 +1,100 @@
+.helper {
+    padding-top: 166px;
+}
+
+.titleBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.title {
+    font-family: "BravoSC";
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.subtitle {
+    max-width: 313px;
+    font-family: "Play";
+    font-size: 15px;
+    color: #3D3C3E;
+}
+
+.content {
+    display: flex;
+    gap: 41px;
+}
+
+.tiles {
+    display: flex;
+    max-width: 572px;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.tile {
+    width: 277px;
+    background-color: #EEEEEE;
+    padding: 63px 33px 43px;
+    border-radius: 10px;
+}
+
+.tileDark {
+    background-color: #3D3C3E;
+    color: #fff;
+}
+
+.tileDark .tileSubtitle {
+    color: #fff;
+}
+
+.tileTitle {
+    font-family: "BravoSC";
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.tileSubtitle {
+    font-size: 18px;
+    font-family: "Play";
+    color: #3D3C3E;
+}
+
+.description {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    display: flex;
+    padding: 51px 63px 36px;
+    gap: 113px;
+    color: #3D3C3E;
+}
+
+.info {
+    width: 280px;
+}
+
+.descriptionTitle {
+    font-size: 50px;
+    font-family: "BravoSC";
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 33px;
+    color: #000;
+}
+
+.text {
+    font-family: "Play";
+    font-size: 15px;
+    margin-bottom: 42px;
+    color: #3D3C3E;
+}
+
+.img {
+    border-radius: 10px;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+}

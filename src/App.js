@@ -1,5 +1,6 @@
 import Header from './components/header';
 import Intro from './components/intro';
+import Hepler from './components/helper';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <div className="container">
         <Header />
         <Intro />
+        <Hepler />
       </div>
     </div>
   );
