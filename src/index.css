@@ -28,6 +28,11 @@
   src: url(./fonts/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Pacifico";
+  src: url(./fonts/Pacifico.ttf);
+}
+
 
 *, *::after, *::before {
   margin: 0;

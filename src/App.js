@@ -5,6 +5,7 @@ import Subscriptions from './components/subscriptions';
 import Details from './components/details';
 
 import './App.css';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hepler />
         <Subscriptions />
         <Details />
+        <Footer />
       </div>
     </div>
   );
