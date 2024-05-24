@@ -36,7 +36,7 @@
 .imagesBlock {
     display: grid;
     grid-template-areas: 'first second second' 'first third fourth';
-    gap: 47px 29px;
+    gap: 20px;
 }
 
 .img {
