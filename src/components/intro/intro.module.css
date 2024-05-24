@@ -1,5 +1,5 @@
 .introTitleBlock {
-    padding: 50px 0;
+    padding: 20px 0;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     margin-bottom: 37px;
@@ -8,8 +8,9 @@
 .introTitle {
     color: #3D3C3E;
     font-size: 140px;
+    line-height: 1;
     font-family: "BravoRG";
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -41,8 +42,8 @@
     margin-bottom: 26px;
 }
 
-.introText p {
-    max-width: 400px;
+.text {
+    width: 404px;
 }
 
 .title3 {

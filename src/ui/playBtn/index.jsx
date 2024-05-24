@@ -1,7 +1,5 @@
 import styles from "./playBtn.module.css";
 
-import playIcon from "../../icons/play.svg";
-
 const PlayBtn = () => {
     return <a className={styles.btn} href="#">
             <svg width="54" height="51" viewBox="0 0 54 51" fill="none" xmlns="http://www.w3.org/2000/svg">

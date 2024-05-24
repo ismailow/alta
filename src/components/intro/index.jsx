@@ -17,7 +17,7 @@ const Intro = () => {
                 <div className={styles.introContent}>
                     <h2 className={styles.introSubtitle}>Загрузите фото и выбери желаемый формат</h2>
                     <div className={styles.introText}>
-                        <p>Инновационный подход к созданию лекал: превращаем фотографии в точные шаблоны для вашей одежды с учетом разных размеров.</p>
+                        <p className={styles.text}>Инновационный подход к созданию лекал: превращаем фотографии в точные шаблоны для вашей одежды с учетом разных размеров.</p>
                         <img src={waves} />
                     </div>
                     <h3 className={styles.title3}>Больше возможностей</h3>
