@@ -85,14 +85,22 @@
 }
 
 .button {
+    width: 245px;
     border-radius: 10px;
     font-size: 15px;
     font-family: 'Play';
     background-color: #EEEEEE;
-    padding: 17px 28px;
+    padding: 17px 24px;
     display: flex;
-    gap: 61px;
+    justify-content: space-between;
+    align-items: center;
     border: none;
+    transition: all .3s linear;
+}
+
+.button:hover {
+    background-image: linear-gradient(130deg, #34CA00 0%, #048829 100%);
+    color: #FFF;
 }
 
 .accent {
@@ -117,6 +125,11 @@
     background-image: linear-gradient(130deg, #2C80FF 0%, #1A4D99 100%);
 }
 
+.pro .buttonBorder:hover .button {
+    background-image: linear-gradient(130deg, #2C80FF 0%, #1A4D99 100%);
+    color: #FFF;
+}
+
 .premium {
     background-color: #3D3C3E;
     color: #EBEBEB;
@@ -136,9 +149,18 @@
     font-weight: 700;
 }
 
+.premium .buttonBorder {
+    background-image: linear-gradient(130deg, #CCAA54 0%, #88B624 100%);
+}
+
 .premium .button {
     background-color: #3D3C3E;
     color: #EBEBEB;
+}
+
+.premium .buttonBorder:hover .button {
+    background-image: linear-gradient(130deg, #CCAA54 0%, #88B624 100%);
+    color: #FFF;
 }
 
 .premium .listItemText {

@@ -53,7 +53,7 @@ const Subscriptions = () => {
                             <div className={styles.buttonBorder}>
                                 <button className={styles.button}>
                                     <span>ПОЛУЧИТЬ</span>
-                                    <span className={styles.price}>3000р</span>
+                                    <span className={styles.price}>6000р/мес</span>
                                 </button>
                             </div>
                         </div>
@@ -100,7 +100,7 @@ const Subscriptions = () => {
                             <div className={styles.buttonBorder}>
                                 <button className={styles.button}>
                                     <span>ПОЛУЧИТЬ</span>
-                                    <span className={styles.price}>3000р</span>
+                                    <span className={styles.price}>3000р/мес</span>
                                 </button>
                             </div>
                         </div>
@@ -148,7 +148,7 @@ const Subscriptions = () => {
                             <div className={styles.buttonBorder}>
                                 <button className={styles.button}>
                                     <span>ПОЛУЧИТЬ</span>
-                                    <span className={styles.price}>3000р</span>
+                                    <span className={styles.price}>10000р/мес</span>
                                 </button>
                             </div>
                         </div>
