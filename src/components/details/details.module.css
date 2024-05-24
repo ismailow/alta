@@ -1,0 +1,61 @@
+.details {
+    padding-bottom: 140px;
+}
+
+.titleBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.title {
+    font-family: "BravoSC";
+    font-size: 50px;
+    font-weight: 400;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    width: 550px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    right: -590px;
+    transform: translateY(-50%);
+}
+
+.subtitle {
+    font-family: 'Play';
+    font-size: 15px;
+}
+
+.imagesBlock {
+    display: grid;
+    grid-template-areas: 'first second second' 'first third fourth';
+    gap: 47px 29px;
+}
+
+.img {
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.firstImg {
+    grid-area: first;
+}
+
+.secondImg {
+    grid-area: second;
+}
+
+.thirdImg {
+    grid-area: third;
+}
+
+.fourthImg {
+    grid-area: fourth;
+}

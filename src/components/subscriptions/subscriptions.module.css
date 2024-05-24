@@ -27,6 +27,7 @@
 .items {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 74px;
 }
 
 .subscriptionItem {
@@ -171,4 +172,20 @@
     position: absolute;
     top: -16px;
     left: -40px;
+}
+
+.postscriptum {
+    font-size: 18px;
+    font-family: 'Play';
+    position: relative;
+}
+
+.postscriptum::after {
+    content: "";
+    display: block;
+    width: 128px;
+    height: 2px;
+    background-color: #F25B05;
+    position: absolute;
+    top: -12px;
 }

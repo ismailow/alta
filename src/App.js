@@ -1,8 +1,10 @@
 import Header from './components/header';
 import Intro from './components/intro';
 import Hepler from './components/helper';
-import './App.css';
 import Subscriptions from './components/subscriptions';
+import Details from './components/details';
+
+import './App.css';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
         <Intro />
         <Hepler />
         <Subscriptions />
+        <Details />
       </div>
     </div>
   );

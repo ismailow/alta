@@ -155,6 +155,7 @@ const Subscriptions = () => {
                     </div>
                 </div>
             </div>
+            <div className={styles.postscriptum}>Также имеются разовые генерации, стоимость  зависит от модели</div>
         </div>
     );
 };
