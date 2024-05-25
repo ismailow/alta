@@ -39,9 +39,28 @@
     gap: 20px;
 }
 
+@media (max-width: 1260px) {
+    .imagesBlock {
+        /* grid-template-areas: 'first third' 'first fourth' 'second second'; */
+        grid-template-areas: 'first third' 'first fourth' 'second second';
+    }
+}
+
+@media (max-width: 900px) {
+    .imagesBlock {
+        /* grid-template-areas: 'first third' 'first fourth' 'second second'; */
+        grid-template-areas: 'first first' 'first first' 'second second' 'third fourth';
+    }
+}
+
 .img {
+    border-radius: 20px;
     align-self: stretch;
     justify-self: stretch;
+    width: 100%;
+    height: auto;
+    /* max-height: 300px; */
+    object-fit: cover;
 }
 
 .firstImg {

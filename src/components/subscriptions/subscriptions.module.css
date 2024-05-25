@@ -33,7 +33,7 @@
 .subscriptionItem {
     padding: 0 30px 30px 0;
     width: 394px;
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE; */
     border-radius: 10px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .subscription {
-    background-color: #EEEEEE;
+    background-color: #FDFFF5;
     border-radius: 10px;
     padding: 39px;
 }
@@ -57,6 +57,7 @@
     border-bottom: 2px solid #108800;
     padding-bottom: 10px;
     margin-bottom: 37px;
+    color: #106833;
 }
 
 .itemList {
@@ -75,6 +76,7 @@
     color: #3D3C3E;
     font-size: 15px;
     font-family: 'Play';
+    color: #0D5C00;
 }
 
 .buttonBorder {
@@ -90,7 +92,7 @@
     border-radius: 10px;
     font-size: 15px;
     font-family: 'Play';
-    background-color: #EEEEEE;
+    background-color: #FDFFF5;
     padding: 17px 24px;
     display: flex;
     justify-content: space-between;
@@ -120,6 +122,11 @@
 
 .pro .itemTitle {
     border-color: #004EC2;
+    color: #0C2DA4;
+}
+
+.pro .listItemText {
+    color: #02175F;
 }
 
 .pro .buttonBorder {
@@ -132,7 +139,7 @@
 }
 
 .premium {
-    background-color: #3D3C3E;
+    /* background-color: #3D3C3E; */
     color: #EBEBEB;
     position: relative;
 }
@@ -148,6 +155,11 @@
 .premium .itemTitle {
     border-color: #AD8100;
     font-weight: 700;
+    color: #F49912;
+}
+
+.premium .listItemText {
+    color: #EBEBEB;
 }
 
 .premium .buttonBorder {

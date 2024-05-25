@@ -8,7 +8,7 @@ const Subscriptions = () => {
     return (
         <div className={styles.subscriptions}>
             <div className={styles.titleBlock}>
-                <h2 className={styles.title}>Начните создавать выкройки прямо сейчас!</h2>
+                <h2 className={styles.title}>Откройте для себя новые возможности прямо сейчас!</h2>
                 <p className={styles.subtitle}>Здесь представлены доступные подписки</p>
             </div>
             <div className={styles.items}>

@@ -7,7 +7,7 @@ const Hepler = () => {
     return (
         <div className={styles.helper}>
             <div className={styles.titleBlock}>
-                <h2 className={styles.title}>Ваш помощник по разработке модели</h2>
+                <h2 className={styles.title}>Ваш помощник по разработке лекал </h2>
                 <p className={styles.subtitle}>Готовые выкройки можно отредактировать с помощью режима “конструктор”, двигая модель по точкам и регулируя угол наклона</p>
             </div>
             <div className={styles.content}>
@@ -18,15 +18,15 @@ const Hepler = () => {
                     </div>
                     <div className={`${styles.tile} ${styles.tileDark}`}>
                         <h3 className={styles.tileTitle}>ДО 30%</h3>
-                        <p className={styles.tileSubtitle}>в своем роде </p>
+                        <p className={styles.tileSubtitle}>экономии средств </p>
                     </div>
                     <div className={styles.tile}>
                         <h3 className={styles.tileTitle}>×3</h3>
                         <p className={styles.tileSubtitle}>к скорости расчета</p>
                     </div>
                     <div className={styles.tile}>
-                        <h3 className={styles.tileTitle}>В 100+</h3>
-                        <p className={styles.tileSubtitle}>проще, чем руками</p>
+                        <h3 className={styles.tileTitle}>В 100</h3>
+                        <p className={styles.tileSubtitle}>раз проще, чем руками</p>
                     </div>
                 </div>
                 <div className={styles.description}>

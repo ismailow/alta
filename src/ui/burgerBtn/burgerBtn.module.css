@@ -1,0 +1,39 @@
+.btn {
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .btn {
+        display: block;
+    }
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    position: relative;
+}
+
+.line::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: -7px;
+}
+
+.line::before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: 7px;
+}
