@@ -1,6 +1,7 @@
 import BorderedBtn from "../../ui/borderedBtn";
 
 import logo from "../../icons/logo.svg";
+import closeIcon from "../../icons/close.svg";
 
 import styles from "./header.module.css";
 import SimpleBtn from "../../ui/simpleBtn";
@@ -16,9 +17,9 @@ const Header = () => {
     
     useEffect(() => {
         if (isOpenMenu) {
-            navRef.current.classList.add('nav-active');
+            navRef.current.classList.add(styles.navActive);
         } else {
-            navRef.current.classList.remove('nav-active');
+            navRef.current.classList.remove(styles.navActive);
         }
     }, [isOpenMenu])
 
@@ -29,6 +30,12 @@ const Header = () => {
             </div>
             <nav className={styles.nav} ref={navRef}>
                 <ul className={styles.menu}>
+                        <button 
+                            className={styles.closeBtn}
+                            onClick={() => setIsOpenMenu(false)}
+                        >
+                            <img src={closeIcon} />
+                        </button>
                     <li className={styles.menuItem}>
                         <a className={`${styles.menuLink} ${styles.menuLinkActive}`} href="#">Главная</a>
                     </li>
@@ -52,7 +59,7 @@ const Header = () => {
                         <BorderedBtn text="Регистрация" />
                     </li>
                 </ul>
-                <BurgerBtn onClickBtn={() => setIsOpenMenu(!isOpenMenu)} />
+                <BurgerBtn onClickBtn={() => setIsOpenMenu(true)} />
             </div>
         </header>
     )

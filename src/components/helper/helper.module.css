@@ -23,15 +23,15 @@
 }
 
 .content {
-    display: flex;
+    display: grid;
     gap: 41px;
 }
 
 .tiles {
-    display: flex;
-    max-width: 572px;
-    flex-wrap: wrap;
+    display: grid;
     gap: 18px;
+    
+    grid-template-areas: 'tile1 tile2 tile5 tile5' 'tile3 tile4 tile5 tile5 ';
 }
 
 .tile {
@@ -69,6 +69,43 @@
     padding: 51px 63px 36px;
     gap: 113px;
     color: #3D3C3E;
+    width: 838px;
+}
+
+@media (max-width: 1460px) {
+    .description {
+        width: 780px;
+        gap: 63px;
+        padding-right: 33px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .description {
+        width: 730px;
+        gap: 33px;
+        padding-right: 23px;
+        padding-left: 23px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .description {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .tiles {
+        grid-template-areas: 'tile1 tile5' 'tile2 tile5' 'tile3 tile4';
+    }
+    .tile {
+        width: 100%;
+    }
+
+    .tile4 {
+        max-width: 400px;
+    }
 }
 
 .info {
@@ -98,4 +135,24 @@
 .btn {
     border: none;
     background-color: transparent;
+}
+
+.tile1 {
+    grid-area: tile1;
+}
+
+.tile2 {
+    grid-area: tile2;
+}
+
+.tile3 {
+    grid-area: tile3;
+}
+
+.tile4 {
+    grid-area: tile4;
+}
+
+.tile5 {
+    grid-area: tile5;
 }

@@ -16,6 +16,7 @@
     background-color: #000;
     display: block;
     position: relative;
+    z-index: 0;
 }
 
 .line::after {
@@ -26,6 +27,7 @@
     display: block;
     position: absolute;
     top: -7px;
+    z-index: 0;
 }
 
 .line::before {
@@ -36,4 +38,5 @@
     display: block;
     position: absolute;
     top: 7px;
+    z-index: 0;
 }

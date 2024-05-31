@@ -14,6 +14,12 @@
     text-align: center;
 }
 
+@media (max-width: 1170px) {
+    .introTitle {
+        font-size: 120px;
+    }
+}
+
 .accent {
     color: #F25B05;
 }
@@ -21,6 +27,7 @@
 .introBlock {
     display: flex;
     justify-content: space-between;
+    gap: 34px;
 }
 
 .introContent {
