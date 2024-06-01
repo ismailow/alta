@@ -20,15 +20,19 @@ const Intro = () => {
                         <p className={styles.text}>Инновационный подход к созданию лекал: превращаем фотографии в точные шаблоны для вашей одежды с учетом разных размеров.</p>
                         <img src={waves} />
                     </div>
-                    <h3 className={styles.title3}>Больше возможностей</h3>
-                    <div className={styles.capacities}>
-                        <div className={styles.item}>Индивидуальные параметры</div>
-                        <div className={styles.item}>Высокая эффекивность</div>
-                        <div className={styles.item}>Автоматизация процесса</div>
-                    </div>
-                    <div className={styles.btns}>
-                        <FilledBtn text="Сгенерировать выкройку" />
-                        <PlayBtn />
+                    <div className={styles.contentBlock}>
+                        <div>
+                            <h3 className={styles.title}>Больше возможностей</h3>
+                            <div className={styles.capacities}>
+                                <div className={styles.item}>Индивидуальные параметры</div>
+                                <div className={styles.item}>Высокая эффекивность</div>
+                                <div className={styles.item}>Автоматизация процесса</div>
+                            </div>
+                        </div>
+                        <div className={styles.btns}>
+                            <FilledBtn text="Сгенерировать выкройку" />
+                            <PlayBtn />
+                        </div>
                     </div>
                 </div>
                 <div className={styles.img}>

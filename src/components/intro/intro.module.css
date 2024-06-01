@@ -20,6 +20,42 @@
     }
 }
 
+@media (max-width: 1009px) {
+    .introTitle {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 846px) {
+    .introTitle {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 683px) {
+    .introTitle {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 602px) {
+    .introTitle {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 520px) {
+    .introTitle {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 439px) {
+    .introTitle {
+        font-size: 45px;
+    }
+}
+
 .accent {
     color: #F25B05;
 }
@@ -27,7 +63,7 @@
 .introBlock {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 34px;
 }
 
@@ -54,7 +90,7 @@
     width: 404px;
 }
 
-.title3 {
+.title {
     font-family: "BravoSC";
     font-size: 41px;
     text-align: right;
@@ -81,10 +117,88 @@
 
 .img img {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
 }
 
 .btns {
     display: flex;
     gap: 44px;
+}
+
+@media (max-width: 1120px) {
+    /* .introBlock {
+        flex-wrap: wrap;
+    }
+    .introContent {
+        max-width: 100%;
+        flex-grow: 1;
+    }
+    .img {
+        width: 100%;
+    } */
+    .title {
+        text-align: left;
+    }
+    .contentBlock {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+        align-items: center;
+        /* flex-wrap: wrap; */
+    }
+    .btns {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .introBlock {
+        flex-wrap: wrap;
+    }
+    .introContent {
+        max-width: 100%;
+        flex-grow: 1;
+    }
+    .img {
+        width: 100%;
+    }
+    .contentBlock {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .btns {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 550px) {
+    .item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 440px) {
+    .capacities {
+        gap: 10px;
+    }
+    .item {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 420px) {
+    .introText {
+        font-size: 16px;
+    }
+    .capacities {
+        /* flex-wrap: wrap; */
+        justify-content : left;
+        gap: 10px;
+    }
 }

@@ -26,3 +26,10 @@
 .btn:hover .circle {
     stroke: #000;
 }
+
+@media (max-width: 603px) {
+    .btn {
+        font-size: 13px;
+        /* padding: 13px 25px; */
+    }
+}

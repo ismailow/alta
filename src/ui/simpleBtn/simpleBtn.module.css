@@ -8,3 +8,9 @@
     background-color: transparent;
     border: none;
 }
+
+@media (max-width: 700px) {
+    .btn {
+        font-size: 17px;
+    }
+}
