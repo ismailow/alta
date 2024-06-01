@@ -78,11 +78,30 @@
     margin-bottom: 32px;
 }
 
+@media (max-width: 846px) {
+    .introSubtitle {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 602px) {
+    .introSubtitle {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 520px) {
+    .introSubtitle {
+        font-size: 30px;
+    }
+}
+
 .introText {
     font-family: "Play";
     font-size: 18px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 20px;
     margin-bottom: 26px;
 }
 
@@ -96,6 +115,27 @@
     text-align: right;
     font-weight: 400;
     margin-bottom: 33px;
+}
+
+@media (max-width: 846px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 602px) {
+    .title {
+        font-size: 30px;
+    }
+    .text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    .title {
+        font-size: 30px;
+    }
 }
 
 .capacities {
