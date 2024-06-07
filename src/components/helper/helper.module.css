@@ -1,5 +1,5 @@
 .helper {
-    padding-top: 166px;
+    padding-top: 100px;
     margin-bottom: 170px;
 }
 
@@ -187,6 +187,19 @@
     }
 }
 
+@media (max-width: 922px) {
+    .titleBlock {
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 905px) {
+    .subtitle {
+        /* margin-top: -30px; */
+    }
+}
+
 @media (max-width: 855px) {
     .tileTitle {
         font-size: 40px;
@@ -227,5 +240,23 @@
     }
     .tileTitle {
         font-size: 40px;
+    }
+}
+
+@media (max-width: 846px) {
+    .title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 602px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 520px) {
+    .title {
+        font-size: 30px;
     }
 }

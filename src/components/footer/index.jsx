@@ -1,4 +1,4 @@
-import logo from '../../icons/footerLogo.svg';
+import logo from '../../icons/logo.svg';
 import arrow from '../../icons/arrow2.svg';
 import clip from '../../icons/clip.svg';
 

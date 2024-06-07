@@ -10,6 +10,7 @@ const Details = () => {
         <div className={styles.details}>
             <div className={styles.titleBlock}>
                 <h3 className={styles.title}>Пусть на фото будут все важные детали</h3>
+                <div className={styles.line}></div>
                 <p className={styles.subtitle}>Это нужно для точного результата</p>
             </div>
             <div className={styles.imagesBlock}>

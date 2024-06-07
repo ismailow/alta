@@ -40,7 +40,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 74px;
+    margin-bottom: 40px;
 }
 
 .subscriptionItem {
@@ -212,4 +212,22 @@
     background-color: #F25B05;
     position: absolute;
     top: -12px;
+}
+
+@media (max-width: 846px) {
+    .title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 602px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 520px) {
+    .title {
+        font-size: 30px;
+    }
 }
