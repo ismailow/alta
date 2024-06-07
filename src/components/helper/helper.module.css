@@ -194,12 +194,6 @@
     }
 }
 
-@media (max-width: 905px) {
-    .subtitle {
-        /* margin-top: -30px; */
-    }
-}
-
 @media (max-width: 855px) {
     .tileTitle {
         font-size: 40px;
