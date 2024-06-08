@@ -151,9 +151,6 @@
 }
 
 @media (max-width: 1235px) {
-    .tile {
-        padding-right: 13px;
-    }
     .tileTitle {
         font-size: 60px;
     }
@@ -162,18 +159,10 @@
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1110px) {
     .tiles {
         grid-template-areas: 'tile1 tile2 tile3 tile4' 'tile5 tile5 tile5 tile5';
     }
-
-    /* .tileTitle {
-        font-size: 40px;
-    }
-
-    .tileSubtitle {
-        font-size: 12px;
-    } */
 
     .imageBlock {
         max-width: 400px;
@@ -187,6 +176,46 @@
     }
 }
 
+@media (max-width: 935px) {
+    .tile {
+        padding: 43px 23px 33px;
+    }
+    .tileTitle {
+        font-size: 40px;
+    }
+    .info {
+        width: 400px;
+    }
+    .descriptionTitle {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 831px) {
+    .info {
+        width: 300px;
+    }
+    .descriptionTitle {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 731px) {
+    .description {
+        flex-direction: column;
+    }
+    .info {
+        width: 550px;
+    }
+    .imageBlock {
+        max-width: 300px;
+    }
+
+    .imageBlock img {
+        width: 100%;
+    }
+}
+
 @media (max-width: 922px) {
     .titleBlock {
         gap: 40px;
@@ -196,7 +225,7 @@
 
 @media (max-width: 855px) {
     .tileTitle {
-        font-size: 40px;
+        /* font-size: 40px; */
     }
 
     .tileSubtitle {
@@ -249,7 +278,19 @@
     }
 }
 
+@media (max-width: 400px) {
+    .tileTitle {
+        font-size: 30px;
+    }
+    .tileSubtitle {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 520px) {
+    .helper {
+        padding-top: 70px;
+    }
     .title {
         font-size: 30px;
     }

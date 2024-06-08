@@ -9,6 +9,8 @@
     transition: all .3s linear;
     font-family: "Play";
     text-decoration: none;
+    flex-grow: 1;
+    width: 100%;
 }
 
 .play, .circle {

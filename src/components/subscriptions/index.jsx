@@ -22,19 +22,15 @@ const Subscriptions = () => {
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
+                                    <span className={styles.listItemText}>Генерация задней модели </span>
+                                    <img src={check} />
+                                </li>
+                                <li className={styles.listItem}>
                                     <span className={styles.listItemText}>Архив с генерациями лекал</span>
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
                                     <span className={styles.listItemText}>Возможность редактирования</span>
-                                    <img src={check} />
-                                </li>
-                                <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Доступ к простым алгоритмам</span>
-                                    <img src={check} />
-                                </li>
-                                <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Учет индивидуальных параметров</span>
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
@@ -45,15 +41,11 @@ const Subscriptions = () => {
                                     <span className={styles.listItemText}>Личный профиль без доступа к коммерческим возможностям</span>
                                     <img src={cross} />
                                 </li>
-                                <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Возможность создания неск-их вариантов одновременно</span>
-                                    <img src={cross} />
-                                </li>
                             </ul>
                             <div className={styles.buttonBorder}>
                                 <button className={styles.button}>
                                     <span>ПОЛУЧИТЬ</span>
-                                    <span className={styles.price}>6000р/мес</span>
+                                    <span className={styles.price}>3000р/мес</span>
                                 </button>
                             </div>
                         </div>
@@ -69,19 +61,15 @@ const Subscriptions = () => {
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
+                                    <span className={styles.listItemText}>Генерация задней модели </span>
+                                    <img src={check} />
+                                </li>
+                                <li className={styles.listItem}>
                                     <span className={styles.listItemText}>Архив с генерациями лекал</span>
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
                                     <span className={styles.listItemText}>Возможность редактирования</span>
-                                    <img src={check} />
-                                </li>
-                                <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Доступ к <span className={styles.accent}>к сложным</span> алгоритмам</span>
-                                    <img src={check} />
-                                </li>
-                                <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Учет индивидуальных параметров</span>
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
@@ -92,15 +80,11 @@ const Subscriptions = () => {
                                     <span className={styles.listItemText}>Личный профиль без доступа к коммерческим возможностям</span>
                                     <img src={cross} />
                                 </li>
-                                <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Возможность создания неск-их вариантов одновременно</span>
-                                    <img src={cross} />
-                                </li>
                             </ul>
                             <div className={styles.buttonBorder}>
                                 <button className={styles.button}>
                                     <span>ПОЛУЧИТЬ</span>
-                                    <span className={styles.price}>3000р/мес</span>
+                                    <span className={styles.price}>6000р/мес</span>
                                 </button>
                             </div>
                         </div>
@@ -117,6 +101,10 @@ const Subscriptions = () => {
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
+                                    <span className={styles.listItemText}>Генерация задней модели </span>
+                                    <img src={check} />
+                                </li>
+                                <li className={styles.listItem}>
                                     <span className={styles.listItemText}>Архив с генерациями лекал</span>
                                     <img src={check} />
                                 </li>
@@ -125,23 +113,11 @@ const Subscriptions = () => {
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Доступ к <span className={styles.accent}>к уник-ым</span> алгоритмам</span>
-                                    <img src={check} />
-                                </li>
-                                <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Учет индивидуальных параметров</span>
-                                    <img src={check} />
-                                </li>
-                                <li className={styles.listItem}>
                                     <span className={styles.listItemText}>Генерация с размерной сеткой</span>
                                     <img src={check} />
                                 </li>
                                 <li className={styles.listItem}>
                                     <span className={styles.listItemText}>Личный профиль <span className={styles.accent}>с доступом</span> к коммерческим возможностям</span>
-                                    <img src={check} />
-                                </li>
-                                <li className={styles.listItem}>
-                                    <span className={styles.listItemText}>Возможность создания неск-их вариантов одновременно</span>
                                     <img src={check} />
                                 </li>
                             </ul>

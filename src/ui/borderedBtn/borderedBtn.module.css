@@ -8,6 +8,7 @@
     cursor: pointer;
     font-family: "Play";
     transition: all .3s linear;
+    display: block;
 }
 
 .btn:hover {
@@ -19,5 +20,14 @@
     .btn {
         font-size: 15px;
         padding: 10px 17px;
+    }
+}
+
+@media (max-width: 483px) {
+    .btn {
+        width: 100%;
+        max-width: 400px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }

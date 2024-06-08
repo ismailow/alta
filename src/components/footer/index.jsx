@@ -1,4 +1,4 @@
-import logo from '../../icons/logo.svg';
+import logo from '../../icons/footerLogo.svg';
 import arrow from '../../icons/arrow2.svg';
 import clip from '../../icons/clip.svg';
 
@@ -10,7 +10,7 @@ const Footer = () => {
             <img src={clip} className={`${styles.clip} ${styles.leftClip}`} />
             <img src={clip} className={`${styles.clip} ${styles.rightClip}`} />
             <div className={styles.header}>
-                <img src={logo} />
+                <img src={logo} className={styles.logo}/>
                 <span className={styles.decorativeText}>Работа в удовольствие</span>
             </div>
             <div className={styles.block}>

@@ -30,21 +30,14 @@ const Header = () => {
             </div>
             <nav className={styles.nav} ref={navRef}>
                 <ul className={styles.menu}>
-                    <button 
-                        className={styles.closeBtn}
-                        onClick={() => setIsOpenMenu(false)}
-                    >
-                        <img src={closeIcon} />
-                    </button>
-                    <li className={styles.menuItem}>
-                        <ul className={styles.loginList}>
-                            <li className={styles.loginItem}>
-                                <SimpleBtn text="Вход" />
-                            </li>
-                            <li className={styles.loginItem}>
-                                <BorderedBtn text="Регистрация" />
-                            </li>
-                        </ul>
+                    <li className={styles.burgerHeader}>
+                        <img src={logo} alt="ALTA.ai" />
+                        <button 
+                            className={styles.closeBtn}
+                            onClick={() => setIsOpenMenu(false)}
+                        >
+                            <img src={closeIcon} />
+                        </button>
                     </li>
                     <li className={styles.menuItem}>
                         <a className={`${styles.menuLink} ${styles.menuLinkActive}`} href="#">Главная</a>
@@ -57,6 +50,16 @@ const Header = () => {
                     </li>
                     <li className={styles.menuItem}>
                         <a className={styles.menuLink} href="#">Контакты</a>
+                    </li>
+                    <li className={styles.menuItem}>
+                        <ul className={styles.loginList}>
+                            <li className={styles.loginItem}>
+                                <SimpleBtn text="Вход" />
+                            </li>
+                            <li className={styles.loginItem}>
+                                <BorderedBtn text="Регистрация" />
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </nav>
